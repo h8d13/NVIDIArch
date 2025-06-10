@@ -12,8 +12,8 @@ https://wiki.archlinux.org/title/NVIDIA/Troubleshooting
 ---
 
 **Card 4070Ti 8GiB**
-
+k= 6.15.1-arch1-2
 
 My issue was that the game would run perfectly for 2-3h then start randomly having 50-100ms to draw frames.
 
-Using x11 user session with sdl_videodriver=wayland for game itself seemed to fix this issue. 
+Using x11 sddm session with sdl_videodriver=wayland for game itself seemed to fix this issue. 
